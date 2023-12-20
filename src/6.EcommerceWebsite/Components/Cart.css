@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 1px solid #000;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    background: aqua;
+    text-align: center;
+    width:auto;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    caption-side: bottom;
+    
+        
+    
+}
+table td{
+    color: black;
+    display: table-cell;
+    vertical-align: inherit;
+}
+table tfoot{
+    vertical-align: middle;
+    display: table-footer-group;
+}
+
+ tfoot .btng{
+    width:auto;
+    
+ }
+
+ 

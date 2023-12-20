@@ -1,0 +1,36 @@
+.sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    flex-wrap: wrap;
+}
+button{
+    padding: 10px;
+    background:aqua;
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.banner{
+    height: 90vh;
+    width: 100%;
+    background: url("https://image.spreadshirtmedia.com/content/f_auto,q_80/v2/CMS/Startpage/Hero/christmas2023v2/Xmas23_HP2_desktop_NA/XmasHP2_23_HPteaser_desktop_NA.png");
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-size: cover;
+    text-align: center;
+    
+}
+.bannerhead{
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: black 20px 20px 20px;
+    
+
+}
+.homesec img{
+    vertical-align: middle;
+    
+}
